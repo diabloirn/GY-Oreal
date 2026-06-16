@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GY'Oreal Gallery &mdash; Browse our full catalog of premium makeup products." />
+  <title>GY'Oreal &mdash; Gallery</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="navbar__inner">
+        <a href="index.html" class="navbar__logo">GY<span>'</span>Oreal</a>
+        <ul class="navbar__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="tips.html">Tips &amp; Trends</a></li>
+          <li><a href="subscribe.html" class="nav-cta">Subscribe</a></li>
+        </ul>
+        <button class="navbar__hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <nav class="navbar__mobile" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="about.html">About Us</a>
+        <a href="tips.html">Tips &amp; Trends</a>
+        <a href="subscribe.html">Subscribe</a>
+      </nav>
+    </div>
+  </nav>
+
+  <section class="page-hero page-hero--gallery">
+    <div class="page-hero__bg"></div>
+    <div class="container">
+      <div class="page-hero__content">
+        <span class="overline">Our Products</span>
+        <h1>The Gallery</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Products</button>
+        <button class="filter-btn" data-filter="lip">Lip Colour</button>
+        <button class="filter-btn" data-filter="foundation">Foundation</button>
+        <button class="filter-btn" data-filter="eyes">Eyes</button>
+        <button class="filter-btn" data-filter="blush">Blush &amp; Bronzer</button>
+        <button class="filter-btn" data-filter="skincare">Skincare</button>
+      </div>
+
+      <div class="gallery-grid">
+
+        <article class="gallery-card reveal" data-category="lip" data-product="lipstickDior">
+          <div class="gallery-card__img-wrap">
+            <img src="assets/product/lipstickDior.jpg" alt="Velvet Matte Lipstick" class="gallery-card__img" />
+          </div>
+          <div class="gallery-card__body">
+            <p class="product-card__tag">Lip Colour</p>
+            <h3>Velvet Matte Lipstick</h3>
+            <p>Ultra-smooth formula with 12-hour hold. Available in 18 shades from nude to deep berry.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal" data-category="foundation" data-product="foundationDior">
+          <div class="gallery-card__img-wrap">
+            <img src="assets/product/foundationDior.jpg" alt="Luminous Skin Foundation" class="gallery-card__img" />
+          </div>
+          <div class="gallery-card__body">
+            <p class="product-card__tag">Foundation</p>
+            <h3>Luminous Skin Foundation</h3>
+            <p>Weightless, buildable coverage in 40 shades. SPF 20 with skin-perfecting hyaluronic acid.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal" data-category="eyes" data-product="eyelinerDior">
+          <div class="gallery-card__img-wrap">
+            <img src="assets/product/eyelinerDior.jpg" alt="Rose Gold Eyeshadow Palette" class="gallery-card__img" />
+          </div>
+          <div class="gallery-card__body">
+            <p class="product-card__tag">Eyes</p>
+            <h3>Rose Gold Eyeshadow Palette</h3>
+            <p>12 curated shades from champagne satin to deep espresso. Finely milled for seamless blending.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal" data-category="blush" data-product="blushBronzer">
+          <div class="gallery-card__img-wrap">
+            <img src="assets/product/Blush&amp;Bronzer.jpg" alt="Sunkissed Bronzer Duo" class="gallery-card__img" />
+          </div>
+          <div class="gallery-card__body">
+            <p class="product-card__tag">Blush &amp; Bronzer</p>
+            <h3>Sunkissed Bronzer Duo</h3>
+            <p>A warm matte bronzer paired with a sheer highlight &mdash; crafted for a naturally sun-touched glow.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal" data-category="lip" data-product="lipColor">
+          <div class="gallery-card__img-wrap">
+            <img src="assets/product/LipColor.jpg" alt="Satin Lip Gloss" class="gallery-card__img" />
+          </div>
+          <div class="gallery-card__body">
+            <p class="product-card__tag">Lip Colour</p>
+            <h3>Satin Lip Gloss</h3>
+            <p>A non-sticky, high-shine gloss infused with Vitamin E for plumped, moisturised lips all day.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal" data-category="skincare" data-product="primer">
+          <div class="gallery-card__img-wrap">
+            <img src="assets/product/HydratingMakeUpPrimer.jpg" alt="Dewy Glow Primer" class="gallery-card__img" />
+          </div>
+          <div class="gallery-card__body">
+            <p class="product-card__tag">Skincare</p>
+            <h3>Dewy Glow Primer</h3>
+            <p>A hydrating primer that blurs pores and creates the perfect canvas for foundation.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal" data-category="eyes" data-product="liquidEyeliner">
+          <div class="gallery-card__img-wrap">
+            <img src="assets/product/Liquid Eyeliner.jpg" alt="Precision Liquid Eyeliner" class="gallery-card__img" />
+          </div>
+          <div class="gallery-card__body">
+            <p class="product-card__tag">Eyes</p>
+            <h3>Precision Liquid Eyeliner</h3>
+            <p>Jet-black, waterproof liner with an ultra-fine tip for razor-sharp lines that last all day.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal" data-category="foundation" data-product="concealerYSL">
+          <div class="gallery-card__img-wrap">
+            <img src="assets/product/concealerYSL.jpg" alt="Soft Matte Concealer" class="gallery-card__img" />
+          </div>
+          <div class="gallery-card__body">
+            <p class="product-card__tag">Foundation</p>
+            <h3>Soft Matte Concealer</h3>
+            <p>Full coverage, crease-resistant concealer that blends effortlessly for an airbrushed finish.</p>
+          </div>
+        </article>
+
+        <article class="gallery-card reveal" data-category="blush" data-product="blushOnYSL">
+          <div class="gallery-card__img-wrap">
+            <img src="assets/product/blushOnYSL.jpg" alt="Peach Blush Powder" class="gallery-card__img" />
+          </div>
+          <div class="gallery-card__body">
+            <p class="product-card__tag">Blush &amp; Bronzer</p>
+            <h3>Peach Blush Powder</h3>
+            <p>A silky, buildable blush in warm peach tones that adds a fresh, natural flush to all skin tones.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="footer__brand-name">GY<span>'</span>Oreal</span>
+          <p>Elegant modern makeup designed for every face, every story, every moment.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="tips.html">Tips &amp; Trends</a></li>
+            <li><a href="subscribe.html">Subscribe</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="gallery.html#lip">Lip Colour</a></li>
+            <li><a href="gallery.html#foundation">Foundation</a></li>
+            <li><a href="gallery.html#eyes">Eyes</a></li>
+            <li><a href="gallery.html#blush">Blush &amp; Bronzer</a></li>
+            <li><a href="gallery.html#skincare">Skincare</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="tips.html">Beauty Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 GY'Oreal. All rights reserved. Muhamad Nabhan Fadhlurrohman.</p>
+        <div class="footer__socials">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">TikTok</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup-overlay" id="productPopup">
+    <div class="popup">
+      <button class="popup__close" id="closeProductPopup">&#x2715;</button>
+      <div class="popup__img-wrap">
+        <img src="" alt="" id="popupImg" class="popup__img" />
+      </div>
+      <div class="popup__body">
+        <p class="popup__tag" id="popupTag"></p>
+        <h3 class="popup__name" id="popupName"></h3>
+        <p class="popup__desc" id="popupDesc"></p>
+        <p class="popup__price" id="popupPrice"></p>
+        <div class="popup__qty-row">
+          <span class="popup__qty-label">Qty</span>
+          <button class="popup__qty-btn" id="qtyMinus">&#8722;</button>
+          <span class="popup__qty-val" id="qtyVal">1</span>
+          <button class="popup__qty-btn" id="qtyPlus">&#43;</button>
+        </div>
+        <button class="btn btn-gold popup__checkout" id="popupCheckout">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

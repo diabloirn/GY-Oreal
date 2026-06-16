@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Subscribe to GY'Oreal newsletter &mdash; exclusive tips, new arrivals, and members-only offers." />
+  <title>GY'Oreal &mdash; Subscribe</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="navbar__inner">
+        <a href="index.html" class="navbar__logo">GY<span>'</span>Oreal</a>
+        <ul class="navbar__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="tips.html">Tips &amp; Trends</a></li>
+          <li><a href="subscribe.html" class="nav-cta active">Subscribe</a></li>
+        </ul>
+        <button class="navbar__hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <nav class="navbar__mobile" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+        <a href="tips.html">Tips &amp; Trends</a>
+        <a href="subscribe.html" class="active">Subscribe</a>
+      </nav>
+    </div>
+  </nav>
+
+  <section class="page-hero page-hero--subscribe">
+    <div class="page-hero__bg"></div>
+    <div class="container">
+      <div class="page-hero__content">
+        <span class="overline">Join the Community</span>
+        <h1>Subscribe</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-pad">
+    <div class="container">
+      <div class="subscribe-layout">
+
+        <!-- LEFT: INFO -->
+        <div class="subscribe-info reveal">
+          <span class="overline">Newsletter</span>
+          <h2>Stay close to<br /><em>what you love</em></h2>
+          <div class="rule"></div>
+          <p>Join thousands of beauty enthusiasts who receive the GY'Oreal newsletter &mdash; curated insights, expert tips, and first access to our newest launches.</p>
+          <p>Unsubscribe at any time. We will never share your data.</p>
+          <div class="subscribe-benefits">
+            <div class="subscribe-benefit">
+              <div class="subscribe-benefit__dot"></div>
+              <p>Early access to new product launches before the public</p>
+            </div>
+            <div class="subscribe-benefit">
+              <div class="subscribe-benefit__dot"></div>
+              <p>Weekly beauty tips and makeup tutorials from our experts</p>
+            </div>
+            <div class="subscribe-benefit">
+              <div class="subscribe-benefit__dot"></div>
+              <p>Exclusive members-only discounts and seasonal offers</p>
+            </div>
+            <div class="subscribe-benefit">
+              <div class="subscribe-benefit__dot"></div>
+              <p>Behind-the-scenes content and brand stories</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: FORM -->
+        <div class="subscribe-form-wrap reveal">
+          <form id="subscribeForm" novalidate>
+
+            <!-- COMPONENT 1: Text Input -->
+            <div class="form-group">
+              <label class="form-label" for="fullName">Full Name <span>*</span></label>
+              <input type="text" id="fullName" name="fullName" class="form-input" placeholder="e.g. Muhamad Nabhan Fadhlurrohman" autocomplete="name" />
+              <span class="field-error" id="nameError"></span>
+            </div>
+
+            <!-- COMPONENT 2: Email Input -->
+            <div class="form-group">
+              <label class="form-label" for="emailAddress">Email Address <span>*</span></label>
+              <input type="email" id="emailAddress" name="emailAddress" class="form-input" placeholder="e.g. muhamad.nabhan@email.com" autocomplete="email" />
+              <span class="field-error" id="emailError"></span>
+            </div>
+
+            <!-- COMPONENT 3: Select Dropdown -->
+            <div class="form-group">
+              <label class="form-label" for="productCategory">Preferred Product Category <span>*</span></label>
+              <select id="productCategory" name="productCategory" class="form-select">
+                <option value="">&mdash; Select a category &mdash;</option>
+                <option value="lip">Lip Colour</option>
+                <option value="foundation">Foundation &amp; Concealer</option>
+                <option value="eyes">Eyes</option>
+                <option value="blush">Blush &amp; Bronzer</option>
+                <option value="skincare">Skincare &amp; Primer</option>
+                <option value="all">All Categories</option>
+              </select>
+              <span class="field-error" id="categoryError"></span>
+            </div>
+
+            <!-- COMPONENT 4: Radio Buttons -->
+            <div class="form-group">
+              <span class="form-label">Newsletter Frequency <span>*</span></span>
+              <div class="radio-group">
+                <label class="radio-label">
+                  <input type="radio" name="frequency" value="weekly" />
+                  Weekly &mdash; Every Monday morning
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="frequency" value="biweekly" />
+                  Bi-weekly &mdash; Every other Friday
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="frequency" value="monthly" />
+                  Monthly &mdash; First day of each month
+                </label>
+              </div>
+              <span class="field-error" id="frequencyError"></span>
+            </div>
+
+            <!-- COMPONENT 5: Checkbox -->
+            <div class="form-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="agreeTerms" name="agreeTerms" />
+                I have read and agree to the GY'Oreal <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>. <span>*</span>
+              </label>
+              <span class="field-error" id="termsError"></span>
+            </div>
+
+            <button type="submit" class="btn btn-gold btn-block form-submit">Subscribe Now</button>
+
+          </form>
+
+          <!-- SUCCESS STATE -->
+          <div id="formSuccess" class="form-success">
+            <h3>Welcome to GY'Oreal!</h3>
+            <p>Thank you for subscribing. Your first newsletter will arrive soon &mdash; keep an eye on your inbox for exclusive beauty content.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="footer__brand-name">GY<span>'</span>Oreal</span>
+          <p>Elegant modern makeup designed for every face, every story, every moment.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="tips.html">Tips &amp; Trends</a></li>
+            <li><a href="subscribe.html">Subscribe</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="gallery.html#lip">Lip Colour</a></li>
+            <li><a href="gallery.html#foundation">Foundation</a></li>
+            <li><a href="gallery.html#eyes">Eyes</a></li>
+            <li><a href="gallery.html#blush">Blush &amp; Bronzer</a></li>
+            <li><a href="gallery.html#skincare">Skincare</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="tips.html">Beauty Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 GY'Oreal. All rights reserved. Muhamad Nabhan Fadhlurrohman.</p>
+        <div class="footer__socials">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">TikTok</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/validate.js"></script>
+</body>
+</html>
