@@ -1,5 +1,5 @@
 # GY'Oreal Website — Project Structure
-## COMP6800 | Muhamad Nabhan Fadhlurrohman
+## Muhamad Nabhan Fadhlurrohman
 
 ---
 
@@ -100,15 +100,3 @@ Meta viewport: present in `<head>` of all 5 HTML files.
 
 ---
 
-## References
-
-1. Google Fonts — Cormorant Garamond & Jost: https://fonts.google.com
-2. MDN Web Docs — CSS Grid: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
-3. MDN Web Docs — CSS Flexbox: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
-4. MDN Web Docs — CSS Custom Properties: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
-5. MDN Web Docs — position: https://developer.mozilla.org/en-US/docs/Web/CSS/position
-6. MDN Web Docs — object-fit: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
-7. MDN Web Docs — CSS Animation: https://developer.mozilla.org/en-US/docs/Web/CSS/animation
-8. MDN Web Docs — CSS Media Queries: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
-9. MDN Web Docs — IntersectionObserver: https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver
-10. W3C HTML5 Specification: https://html.spec.whatwg.org
